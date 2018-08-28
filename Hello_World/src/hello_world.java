@@ -3,7 +3,7 @@
  * Prints the words Hello World and my name
  * 
  * author@ Jakin Chan
- * 28 August 2018
+ * @28 August 2018
  */
 public class hello_world {
 
