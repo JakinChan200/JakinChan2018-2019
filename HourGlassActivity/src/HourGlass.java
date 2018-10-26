@@ -3,9 +3,10 @@ public class HourGlass {
 
 	public static void main(String[] args) {
 		String topAndBottom = ("|" + printChars("*", 10) + "|\n");
-		/*String top = topCurve();
-		String bottom = bottomCurve();*/
-		System.out.println(topAndBottom);
+		String top = topCurve();
+		String middle = "||";
+		String bottom = bottomCurve();
+		System.out.println(topAndBottom + top + middle + "\n" + bottom);
 	}
 	
 	public static String topCurve() {
