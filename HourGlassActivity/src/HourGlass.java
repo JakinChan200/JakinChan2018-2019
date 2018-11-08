@@ -4,9 +4,9 @@ public class HourGlass {
 	public static void main(String[] args) {
 		String topAndBottom = ("|" + printChars("*", 10) + "|\n");
 		String top = topCurve();
-		String middle = "||";
+		String middle = "     ||\n";
 		String bottom = bottomCurve();
-		System.out.println(topAndBottom + top + middle + "\n" + bottom);
+		System.out.println(topAndBottom + top + middle + bottom + topAndBottom);
 	}
 	
 	public static String topCurve() {
@@ -19,8 +19,8 @@ public class HourGlass {
 	
 	public static String bottomCurve() {
 		String curve = "";
-		for(int j = 0; j < 4; j--) {
-			curve += printChars(" ", 5-j) + "/" + printChars("::", j) + "\\\n";
+		for(int j = 0; j < 4; j++) {
+			curve += printChars(" ", 4-j) + "/" + printChars("::", j+1) + "\\\n";
 		} 
 		return curve;
 	}
