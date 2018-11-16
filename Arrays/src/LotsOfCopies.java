@@ -1,5 +1,9 @@
+/*This code is primarily for testing the properties of ints, Strings, and arrays
+ * 
+ * @author Jakin Chan
+ * @version 9 November 2018
+ */
 import java.util.Arrays;
-
 public class LotsOfCopies {
 
 	public static void main(String[] args) {
